@@ -1,0 +1,104 @@
+body {
+	font-size: 26px;
+	font-family: 'Playball', cursive;
+	background-color: #43c1be;
+}
+
+#header-nav {
+	padding-bottom: 55px;
+	background-color: #007875;
+	border: 0;
+	border-bottom: solid white 10px;
+}
+
+.navbar-brand h1{
+	text-transform: uppercase;
+	color: #ccccff;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 25px;
+
+}
+
+.navbar-brand a {
+	text-decoration: none; 
+
+}
+
+
+
+#collapsable-nav {
+	background-color: #eafcff;
+	clear: left;
+	vertical-align: center;
+	margin-top: 25px;
+}
+
+#button {
+	padding: 25px 10px 0 0;
+}
+
+#nav-list {
+	font-size: 1.8em;
+	padding: 13px 0 10px 0;
+	width: 100%;
+	float: none;
+}
+
+#nav-list a:hover {
+	background: #fdd5d5;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#my-content {
+	height: 1000px;
+	background: #ffd4a8;
+	border: 3px solid black;
+	border-radius: 3px;
+	margin-bottom: 100px;
+}
+
+#my-content div {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#my-content div{
+	position: absolute;
+	top: 0;
+}
+
+#my-content div p {
+	font-size: 25px;
+	margin: 20px;
+	vertical-align: 10px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#header-nav {
+		padding-bottom: 30px;
+		background-color: #007875;
+		border: 0;
+		border-bottom: solid white 10px;
+	}
+}
